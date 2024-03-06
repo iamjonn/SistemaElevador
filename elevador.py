@@ -1,8 +1,7 @@
 
 class Elevador:
-    def __init__(self, destino, origem =0):
-        self.destino = destino 
-        self.origem = self.destino  # Added the origin variable
+    def __init__(self, origem): 
+        self.origem = origem  # Added the origin variable
 
 
     def porta(self, porta = 0):
@@ -12,10 +11,18 @@ class Elevador:
             print("Abrindo a porta")
         else:
             print("Perigo saia do elevador")
+    @property
+    def origem2(self):
+        return self.origem2
+            
 
-              
-
-
+        
+        
+# Testando o código
+mano = Elevador(13)
+if mano.origem == 4:
+  print('up') 
+mano.porta(1)
 
 
 

@@ -28,7 +28,8 @@ class Painel:
        elevar.porta(0)
        play = Painel(self.destino)
        print(play)
-       
+       elevar.porta(1)
+       elevar.origem()
 
 
            
