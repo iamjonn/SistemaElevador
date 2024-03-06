@@ -5,13 +5,15 @@ class Elevador:
         self.origem = self.destino  # Added the origin variable
 
 
-    def run(self):
-        if self.destino == self.origem:
-            return f"ja Estamos no andar {self.destino}º"
-        elif self.destino > self.origem:
-            return f"Estamos subindo para o {self.destino}º andar"
+    def porta(self, porta = 0):
+        if porta == 0:
+            print("Fechando a porta") 
+        elif porta == 1:
+            print("Abrindo a porta")
         else:
-            return f"Estamos descendo para o {self.destino}º andar"  
+            print("Perigo saia do elevador")
+
+              
 
 
 
