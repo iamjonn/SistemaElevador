@@ -1,7 +1,7 @@
 
 class Elevador:
     def __init__(self, origem): 
-        self.origem = origem  # Added the origin variable
+        self.__origem = origem  # Added the origin variable
 
 
     def porta(self, porta = 0):
@@ -20,7 +20,11 @@ class Elevador:
          '''
         Método que guarda o andar que o elevador vai parar.
         '''
-         return self.origem
+         return self.__origem
+    
+    @origem2.setter
+    def origem2(self, nova_origem):
+        self.__origem = nova_origem
             
 
         
