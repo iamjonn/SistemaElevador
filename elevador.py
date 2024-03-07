@@ -13,16 +13,11 @@ class Elevador:
             print("Perigo saia do elevador")
     @property
     def origem2(self):
-        return self.origem2
+        return self.origem
             
 
         
         
-# Testando o código
-mano = Elevador(13)
-if mano.origem == 4:
-  print('up') 
-mano.porta(1)
 
 
 
