@@ -1,5 +1,5 @@
 from elevador import Elevador
 from painel import Painel
 
-ue = Painel(4)
+ue = Painel()
 ue.run()  # Corrected the formatting
