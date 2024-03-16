@@ -12,3 +12,4 @@ if escolha == '1':
         print('Sou pai. Meu PID:', os.getpid(), 'Meu filho é:', pid)
 else:
     exit()
+| 
